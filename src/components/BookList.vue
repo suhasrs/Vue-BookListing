@@ -6,9 +6,11 @@
 
 <script>
 export default {
-    name : "BookList",
-    data : {
-        title: "All Books"
+    name : 'BookList',
+    data : function(){
+        return {
+            title: 'All Books'
+        }
     }
 }
 </script>
